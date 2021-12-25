@@ -26,10 +26,18 @@ jobs:
           plugin_achievements: yes
           plugin_achievements_threshold: C      # Display achievements with rank B or higher
           plugin_achievements_secrets: yes      # Display unlocked secrets achievements
-          plugin_achievements_display: detailed  # Use detailed display
+          plugin_achievements_display: detailed # Use detailed display
           plugin_achievements_limit: 0          # Display all unlocked achievements (no limit)
-          plugin_achievements_ignored: ""        # Hide "" achievement
-          plugin_achievements_only: ""    # Display only "" achievement (don't use with "ignored" option)
+          plugin_achievements_ignored: ""       # Hide "" achievement
+          plugin_achievements_only: ""          # Display only "" achievement (don't use with "ignored" option)
+          
+          plugin_activity: yes
+          plugin_activity_limit: 5           # Limit to 5 events
+          plugin_activity_load: 100          # Load up to 100 recent events from API (should be higher than "limit")
+          plugin_activity_days: 14           # Keep only events from last 14 days (set to 0 for no limit)
+          plugin_activity_filter: all        # Show all events (use table above to filter events types)
+          plugin_activity_visibility: all    # Only display all events
+          plugin_activity_timestamps: yes    # Display events timestamps
           
           plugin_languages: yes
           plugin_languages_ignored: ""                                  # List of languages to ignore
