@@ -12,5 +12,12 @@ jobs:
       # See action.yml for all options
       - uses: lowlighter/metrics@latest
         with:
+          plugin_achievements: yes
+          plugin_achievements_threshold: C      # Display achievements with rank B or higher
+          plugin_achievements_secrets: yes      # Display unlocked secrets achievements
+          plugin_achievements_display: detailed  # Use detailed display
+          plugin_achievements_limit: 0          # Display all unlocked achievements (no limit)
+          plugin_achievements_ignored: ""        # Hide "" achievement
+          plugin_achievements_only: ""    # Display only "" achievement (don't use with "ignored" option)
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
