@@ -12,6 +12,7 @@ jobs:
       # See action.yml for all options
       - uses: lowlighter/metrics@latest
         with:
+          
           plugin_achievements: yes
           plugin_achievements_threshold: C      # Display achievements with rank B or higher
           plugin_achievements_secrets: yes      # Display unlocked secrets achievements
@@ -19,5 +20,16 @@ jobs:
           plugin_achievements_limit: 0          # Display all unlocked achievements (no limit)
           plugin_achievements_ignored: ""        # Hide "" achievement
           plugin_achievements_only: ""    # Display only "" achievement (don't use with "ignored" option)
+          
+          plugin_languages: yes
+          plugin_languages_ignored: ""                                  # List of languages to ignore
+          plugin_languages_skipped: ""                                  # List of repositories to skip
+          plugin_languages_limit: 0                                     # Display up to 8 languages
+          plugin_languages_sections: most-used, recently-used           # Display most used and recently used
+          plugin_languages_aliases: "JavaScript:JS, TypeScript:TS, ..." # Customize languages names with aliases
+          plugin_languages_details: bytes-size, percentage              # Additionally display total bytes size and percentage
+          plugin_languages_threshold: 2%                                # Hides all languages less than 2%
+          plugin_languages_indepth: no                                  # Get indepth stats (see documentation before enabling)
+          
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
