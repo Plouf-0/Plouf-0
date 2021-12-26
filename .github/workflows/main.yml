@@ -43,6 +43,7 @@ jobs:
           plugin_activity_timestamps: yes    # Display events timestamps
           
           plugin_languages: yes
+          plugin_languages_sections: most-used, recently-used
           plugin_languages_details: bytes-size, percentage, lines       # Additionally display total bytes size and percentage
           plugin_languages_indepth: yes
           plugin_languages_recent_days: 365
