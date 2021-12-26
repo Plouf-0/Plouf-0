@@ -45,4 +45,4 @@ jobs:
           plugin_languages_recent_days: 365
           
           # Your GitHub token
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN1 }}
