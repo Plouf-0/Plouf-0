@@ -13,6 +13,7 @@ jobs:
       # See action.yml for all options
       - uses: lowlighter/metrics@latest
         with:
+          debug: true
           repositories_affiliations: owner, collaborator, organization_member
         
           plugin_isocalendar: yes
