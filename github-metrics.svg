@@ -1659,7 +1659,7 @@
         Recently used languages
       </h3>
                 <small>
-            estimation from 5 edited files from 84 commits over last 73 days
+            estimation from 11 edited files from 84 commits over last 73 days
           </small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
@@ -3498,7 +3498,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 1 Jan 2022, 09:19:39 (timezone Europe/Paris) with lowlighter/metrics@3.16.0</span>
+                <span>Last updated 1 Jan 2022, 10:16:24 (timezone Europe/Paris) with lowlighter/metrics@3.16.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
