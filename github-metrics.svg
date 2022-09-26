@@ -333,7 +333,7 @@
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 51b of code in 2 edited files across 72 commits over last 90 days</small>
+                <small>estimation from 51b of code in 2 edited files across 72 commits over last 91 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
@@ -1813,7 +1813,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Developer
-                                    <span class="gh">ranked 6.47m out of 98m users</span>
+                                    <span class="gh">ranked 6.48m out of 98m users</span>
                                 </div>
                                 <div class="text">Published 7 public repositories</div>
                             </div>
@@ -2163,7 +2163,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 26 Sept 2022, 04:01:40 (timezone Europe/Paris) with lowlighter/metrics@3.28.0</span>
+                <span>Last updated 26 Sept 2022, 06:55:18 (timezone Europe/Paris) with lowlighter/metrics@3.28.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
