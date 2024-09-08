@@ -61,7 +61,7 @@
 <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> 
 <a href="https://jestjs.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" alt="jest" width="40" height="40"/> </a> 
 
-![stats](https://github-readme-stats.vercel.app/api/wakatime?username=Plouf&api_domain=wakapi.giaufer.fr&bg_color=1A202C&title_color=2F855A&icon_color=2F855A&text_color=ffffff&custom_title=Plouf's%20Week%20Stats&layout=default&langs_count=20)
+![stats](https://github-readme-stats.vercel.app/api/wakatime?username=Plouf&api_domain=wakapi.giaufer.fr&bg_color=1A202C&title_color=2F855A&icon_color=2F855A&text_color=ffffff&custom_title=Plouf's%20Year%20Stats&layout=default&langs_count=20)
 
 <!--[![Les Stats GitHub de Anurag](https://github-readme-stats.vercel.app/api?username=kammerjager&count_private=true&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
 
