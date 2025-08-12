@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1837" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1953" class="">
     <defs>
         <style/>
     </defs>
@@ -347,7 +347,7 @@
                         <path fill-rule="evenodd" d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 01-1.484.211c-.04-.282-.163-.547-.37-.847a8.695 8.695 0 00-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.75.75 0 01-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75zM6 15.25a.75.75 0 01.75-.75h2.5a.75.75 0 010 1.5h-2.5a.75.75 0 01-.75-.75zM5.75 12a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5z"/>
                     </svg>
                     Recent coding habits
-                    <small class="h-details">(computed from last 21 commits)</small>
+                    <small class="h-details">(computed from last 22 commits)</small>
                 </h2>
                 <div class="row">
                     <ul class="facts">
@@ -451,8 +451,8 @@
                             17
                         </div>
                         <div class="entry">
-                            <span class="value"></span>
-                            <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                            <span class="value">1</span>
+                            <div class="bar" style="height: 8.333333333333332px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                             18
                         </div>
                         <div class="entry">
@@ -492,13 +492,13 @@
                                 Sun
                             </div>
                             <div class="entry">
-                                <span class="value">9</span>
+                                <span class="value">10</span>
                                 <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
                                 Mon
                             </div>
                             <div class="entry">
                                 <span class="value">1</span>
-                                <div class="bar" style="height: 5.555555555555555px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="height: 5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 Tue
                             </div>
                             <div class="entry">
@@ -508,12 +508,12 @@
                             </div>
                             <div class="entry">
                                 <span class="value">8</span>
-                                <div class="bar" style="height: 44.44444444444444px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                                <div class="bar" style="height: 40px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
                                 Thu
                             </div>
                             <div class="entry">
                                 <span class="value">3</span>
-                                <div class="bar" style="height: 16.666666666666664px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <div class="bar" style="height: 15px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                                 Fri
                             </div>
                             <div class="entry">
@@ -1552,6 +1552,11 @@
                                 <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
+                            <g transform="translate(-1.7, 7)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
                         </g>
                     </g>
                 </svg>
@@ -1565,6 +1570,78 @@
                 </h2>
                 <div class="row">
                     <section>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 11 commits in
+                                        <span class="repo">Plouf-0/spie-dockerproject</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">main</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#eac075b</div>
+                                        <div class="message">feat: Update GraphPlaceholder component styles for header and description</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#15e903c</div>
+                                        <div class="message">feat: Add development script for React frontend with hot reload and dependency management; remove obsolete start script</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#794b31e</div>
+                                        <div class="message">feat: Update deployment scripts and environment configuration for Keycloak integration and resource management</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#d164e29</div>
+                                        <div class="message">feat: Add weekly cleanup script for K3s with logging and resource checks</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#0523671</div>
+                                        <div class="message">feat: Enhance backend and frontend setup with new scripts and configurations
+
+- Added error logging for server startup issues in error.log.
+- Updated package.json to include new development scripts and testing commands.
+- Created run-api-tests.sh and run-tests.sh for streamlined testing processes.
+- Introduced start-dev.js and start-simple.js for local development server setups.
+- Implemented comprehensive API tests covering documentation, error handling, health checks, performance, security, and user/stacks endpoints.
+- Added Dockerignore and updated Dockerfile for frontend to improve build process.
+- Integrated runtime environment variable injection for API URL in frontend.
+- Created install-backend.sh and install-frontend.sh scripts for easier deployment in Kubernetes.
+- Modified Kubernetes manifests for PostgreSQL and frontend to utilize ConfigMaps for environment variables.
+- Refactored spieUserInterfaceSetup_ubuntu.sh to use dedicated installation scripts for backend and frontend.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#ec382d2</div>
+                                        <div class="message">feat: Refactor Harbor setup script to include reinstallation option, improve error handling, and enhance environment variable management</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#5464b1c</div>
+                                        <div class="message">feat: Enhance Keycloak setup script with external accessibility check and error handling for realm configuration</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#820c8bf</div>
+                                        <div class="message">feat: Add Keycloak realm configuration and setup script for SPIE backend</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#d142277</div>
+                                        <div class="message">feat: Add scripts for complete uninstallation of Keycloak and Harbor from Kubernetes</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#b3c160e</div>
+                                        <div class="message">refactor: Clean up Keycloak configuration by standardizing comments, updating environment variables, and enhancing security settings</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#1d80d4a</div>
+                                        <div class="message">refactor: Update resource requests and limits in Keycloak configuration for improved performance and add additional environment variables for production settings</div>
+                                    </div>
+                                </div>
+                                <div class="timestamp">11 Aug 2025, 18:52:45</div>
+                            </section>
+                        </div>
                         <div class="row fill-width">
                             <section class="activity">
                                 <div class="field">
@@ -1753,47 +1830,6 @@ feat: Introduce MockApiService for testing connectivity
                                 <div class="timestamp">7 Aug 2025, 13:04:40</div>
                             </section>
                         </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 4 commits in
-                                        <span class="repo">Plouf-0/spie-dockerproject</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">main</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#38865f8</div>
-                                        <div class="message">feat: Initialize UI project with React, Tailwind CSS, and essential components
-
-- Added package.json for project dependencies and scripts
-- Configured PostCSS with Tailwind CSS and Autoprefixer
-- Created public assets including favicon, logos, and manifest
-- Developed main application structure with App, Dashboard, and various components (Header, Sidebar, Tabs, GraphPlaceholder)
-- Implemented basic styling with Tailwind CSS and custom CSS
-- Set up testing environment with Jest and React Testing Library
-- Included web vitals reporting for performance monitoring</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#aa15c5a</div>
-                                        <div class="message">feat: Add user interface installation script for Ubuntu setup</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#2ff4be5</div>
-                                        <div class="message">fix: Update .gitignore to include node_modules and clean up README formatting</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#093db75</div>
-                                        <div class="message">fix: Correct path to .env file in helmSetup_ubuntu.sh script</div>
-                                    </div>
-                                </div>
-                                <div class="timestamp">4 Aug 2025, 10:27:37</div>
-                            </section>
-                        </div>
                     </section>
                 </div>
             </section>
@@ -1817,7 +1853,7 @@ feat: Introduce MockApiService for testing connectivity
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 12 Aug 2025, 01:18:56 (timezone Europe/Paris) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 12 Aug 2025, 03:40:39 (timezone Europe/Paris) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
