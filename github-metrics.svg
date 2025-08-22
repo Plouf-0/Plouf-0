@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="2603" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="2453" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}svg.columns .items-wrapper{column-count:2;column-gap:10px}svg.columns .items-wrapper&gt;*{-webkit-column-break-inside:avoid;page-break-inside:avoid;break-inside:avoid-column}@media (max-width:850px){svg.columns .items-wrapper{column-count:1}}h1,h2,h3{margin:8px 0 2px;padding:0;color:#0366d6}h1{font-size:20px;font-weight:700}h2,h3{font-weight:400}h1 svg,h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3{font-size:14px}.h-details{margin:0 4px;padding-top:4px;font-size:.8rem}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field.wrap,.row{flex-wrap:wrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.field.error{color:#cb2431}.field.error svg{fill:#cb2431}.row{display:flex}.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}#metrics-end,.fill-width{width:100%}.avatar{border-radius:50%;margin:0 6px}.organization.avatar{border-radius:15%}.organization.contributions{margin:0 8px;flex-wrap:wrap}.calendar.field{margin:4px 0 4px 7px}.calendar .day{outline:1px solid rgba(27,31,35,.04);outline-offset:-1px}svg.bar{margin:4px 0}.field.language{margin:0 8px;flex-grow:0}.field.language.details{display:flex;justify-content:space-between}.field.language.details small,.field.license.details small{display:flex;justify-content:space-between;color:#666;text-align:right}.field.language.details small&gt;*,.field.language.details&gt;*{flex:1 1 0}.field.language.details small&gt;:not(:last-child){margin-right:6px}.habits .facts{margin:0;list-style-type:none;padding-left:37px}footer{margin-top:8px;font-style:italic;text-align:right;justify-content:flex-end;padding:0 4px}.audit.text{min-width:42px}.audit svg{margin:0}.chart{padding:0 8px}.chart-bars{display:flex;justify-content:space-between;align-items:flex-end;width:100%;margin:8px 0 4px;flex-grow:1;min-height:70px}.chart-bars .entry,footer{display:flex;flex-direction:column;font-size:10px;color:#666}.chart-bars .entry{flex-grow:1;align-items:center}.chart-bars .entry .value{font-size:6px}.chart-bars .entry .empty{width:100%;text-align:center}.chart-bars .bar{width:7px;background-color:var(--color-calendar-graph-day-bg);border:1px solid var(--color-calendar-graph-day-border);border-radius:5px}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .user{font-weight:600}.activity .details,.activity .timestamp{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .timestamp{font-size:10px;margin-top:4px}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}svg.calendar{margin-left:13px;margin-top:4px}svg.calendar text{font-size:18px;fill:currentColor}.added{color:#3fb950}.field.license.details{display:flex;justify-content:space-between}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}.token.namespace{color:#b44418}.token.string{color:#2777aa}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}svg.columns .items-wrapper{column-count:2;column-gap:10px}svg.columns .items-wrapper&gt;*{-webkit-column-break-inside:avoid;page-break-inside:avoid;break-inside:avoid-column}@media (max-width:850px){svg.columns .items-wrapper{column-count:1}}h1,h2,h3{margin:8px 0 2px;padding:0;color:#0366d6}h1{font-size:20px;font-weight:700}h2,h3{font-weight:400}h1 svg,h2 svg,h3 svg{fill:currentColor}h2{font-size:16px}h3{font-size:14px}.h-details{margin:0 4px;padding-top:4px;font-size:.8rem}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field.wrap,.row{flex-wrap:wrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.field.error{color:#cb2431}.field.error svg{fill:#cb2431}.row{display:flex}.row section{flex:1 1 0}.column{display:flex;flex-direction:column;align-items:center}#metrics-end,.fill-width{width:100%}.avatar{border-radius:50%;margin:0 6px}.organization.avatar{border-radius:15%}.organization.contributions{margin:0 8px;flex-wrap:wrap}.calendar.field{margin:4px 0 4px 7px}.calendar .day{outline:1px solid rgba(27,31,35,.04);outline-offset:-1px}svg.bar{margin:4px 0}.field.language{margin:0 8px;flex-grow:0}.field.language.details{display:flex;justify-content:space-between}.field.language.details small,.field.license.details small{display:flex;justify-content:space-between;color:#666;text-align:right}.field.language.details small&gt;*,.field.language.details&gt;*{flex:1 1 0}.field.language.details small&gt;:not(:last-child){margin-right:6px}.habits .facts{margin:0;list-style-type:none;padding-left:37px}.chart-bars .entry,footer{display:flex;flex-direction:column;font-size:10px;color:#666}footer{margin-top:8px;font-style:italic;text-align:right;justify-content:flex-end;padding:0 4px}.chart{padding:0 8px}.chart-bars{display:flex;justify-content:space-between;align-items:flex-end;width:100%;margin:8px 0 4px;flex-grow:1;min-height:70px}.chart-bars .entry{flex-grow:1;align-items:center}.chart-bars .entry .value{font-size:6px}.chart-bars .entry .empty{width:100%;text-align:center}.chart-bars .bar{width:7px;background-color:var(--color-calendar-graph-day-bg);border:1px solid var(--color-calendar-graph-day-border);border-radius:5px}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .user{font-weight:600}.activity .details,.activity .timestamp{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .timestamp{font-size:10px;margin-top:4px}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}svg.calendar{margin-left:13px;margin-top:4px}svg.calendar text{font-size:18px;fill:currentColor}.added{color:#3fb950}.field.license.details{display:flex;justify-content:space-between}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -347,11 +347,11 @@
                         <path fill-rule="evenodd" d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 01-1.484.211c-.04-.282-.163-.547-.37-.847a8.695 8.695 0 00-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.75.75 0 01-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75zM6 15.25a.75.75 0 01.75-.75h2.5a.75.75 0 010 1.5h-2.5a.75.75 0 01-.75-.75zM5.75 12a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5z"/>
                     </svg>
                     Recent coding habits
-                    <small class="h-details">(computed from last 16 commits)</small>
+                    <small class="h-details">(computed from last 17 commits)</small>
                 </h2>
                 <div class="row">
                     <ul class="facts">
-                        <li>Mostly pushes code around 17:00</li>
+                        <li>Mostly pushes code around 15:00</li>
                         <li>Mostly active on Thursday</li>
                     </ul>
                 </div>
@@ -436,8 +436,8 @@
                             14
                         </div>
                         <div class="entry">
-                            <span class="value">2</span>
-                            <div class="bar" style="height: 33.33333333333333px; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
+                            <span class="value">3</span>
+                            <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
                             15
                         </div>
                         <div class="entry">
@@ -488,32 +488,32 @@
                         <div class="chart-bars">
                             <div class="entry">
                                 <span class="value">1</span>
-                                <div class="bar" style="height: 6.25px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="height: 5.555555555555555px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 Sun
                             </div>
                             <div class="entry">
                                 <span class="value">4</span>
-                                <div class="bar" style="height: 25px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <div class="bar" style="height: 22.22222222222222px; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
                                 Mon
                             </div>
                             <div class="entry">
                                 <span class="value">1</span>
-                                <div class="bar" style="height: 6.25px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="height: 5.555555555555555px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 Tue
                             </div>
                             <div class="entry">
                                 <span class="value">1</span>
-                                <div class="bar" style="height: 6.25px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="height: 5.555555555555555px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 Wed
                             </div>
                             <div class="entry">
-                                <span class="value">8</span>
+                                <span class="value">9</span>
                                 <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
                                 Thu
                             </div>
                             <div class="entry">
                                 <span class="value">1</span>
-                                <div class="bar" style="height: 6.25px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="height: 5.555555555555555px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 Fri
                             </div>
                             <div class="entry">
@@ -1555,6 +1555,73 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
+                                        Pushed 11 commits in
+                                        <span class="repo">Plouf-0/spie-dockerproject</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">main</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#c0559d6</div>
+                                        <div class="message">feat: Add PersistentVolumeClaim for Baserow data storage; configure volume mounts in deployment</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#5a1e4cf</div>
+                                        <div class="message">feat: Add custom Dockerfile and deployment script for n8n with integrated packages; enhance README for improved setup instructions</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#5b4f972</div>
+                                        <div class="message">chore: Remove obsolete INSTALLATION_GUIDE.md; update documentation to reflect current setup processes</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#50b2ad3</div>
+                                        <div class="message">feat: Enhance setup script with logging, argument handling, and automated maintenance configuration; improve user experience and system checks</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#5a20845</div>
+                                        <div class="message">feat: Add comprehensive maintenance scripts and documentation; unify pod cleanup and resource management processes</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#913e906</div>
+                                        <div class="message">feat: Add HorizontalPodAutoscaler and PodDisruptionBudgets for backend, frontend, and database; implement resource limits for admin namespace</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#86f657d</div>
+                                        <div class="message">feat: Add comprehensive documentation for ADM-STACKS and user interface components; remove obsolete Kubernetes resource configurations</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#fe902aa</div>
+                                        <div class="message">chore: Remove obsolete n8n stack backup file</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#29db666</div>
+                                        <div class="message">fix: Update stack deployment status query to include status field</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#1ba5166</div>
+                                        <div class="message">feat: Update installation scripts with improved documentation and error handling
+
+- Added detailed comments and usage instructions in generate-secrets.sh, harborSetup_ubuntu.sh, helmSetup_ubuntu.sh, keycloakSetup_ubuntu.sh, kubeSetup_ubuntu.sh, portainerSetup_ubuntu.sh, post-install-check.sh, terraformSetup-ubuntu.sh, traefikSetup_ubuntu.sh, and weekly-cleanup.sh.
+- Enhanced argument parsing and default configurations in various scripts.
+- Implemented removal functionality in harborSetup_ubuntu.sh and keycloakSetup_ubuntu.sh for better resource management.
+- Improved logging and user feedback in cleanup and uninstall scripts.
+- Ensured consistent error handling and exit statuses across all scripts.</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#94e07d1</div>
+                                        <div class="message">feat: Enhance UI with dark mode support and add export stack button placeholder</div>
+                                    </div>
+                                </div>
+                                <div class="timestamp">21 Aug 2025, 15:58:37</div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
                                         Pushed 6 commits in
                                         <span class="repo">Plouf-0/spie-dockerproject</span>
                                     </div>
@@ -1871,115 +1938,6 @@ feat: Implement resizable columns in InfraUsers table for better user experience
                                 <div class="timestamp">15 Aug 2025, 17:48:38</div>
                             </section>
                         </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 28 commits in
-                                        <span class="repo">Plouf-0/spie-dockerproject</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">main</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#0360523</div>
-                                        <div class="message">feat: move isAdmin function to a separate utility file for better organization and reuse</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#98304ac</div>
-                                        <div class="message">feat: update login component to display SPIE logo and enhance visual styling</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#37e267d</div>
-                                        <div class="message">feat: implement user creation endpoint with automatic username generation and enhance frontend form for user input validation</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#0a889e7</div>
-                                        <div class="message">feat: refactor Keycloak integration by using internal URLs, streamline backend deployment scripts, and enhance user interface setup script</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#ec97383</div>
-                                        <div class="message">feat: enhance user interface with profile and settings pages, integrate Keycloak admin configurations, and improve API service error handling and timeouts</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#402084d</div>
-                                        <div class="message">feat: add initial backend structure with Keycloak integration and user management endpoints</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#500250c</div>
-                                        <div class="message">feat: add Postman collection and environment for SPIE Backend API testing</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#c7da556</div>
-                                        <div class="message">feat: update backend deployment scripts for improved management and add dedicated Postgres deployment script</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#45b07b9</div>
-                                        <div class="message">feat: initialize backend with Express, PostgreSQL, and Keycloak integration
-
-- Added package.json for backend dependencies and scripts.
-- Created config.js for environment variable management.
-- Implemented db.js for PostgreSQL connection and query handling.
-- Developed index.js to set up Express server with CORS and middleware.
-- Created authentication middleware for JWT verification with Keycloak.
-- Added routes for stacks and users, including CRUD operations and membership management.
-- Implemented audit logging for user actions.
-- Integrated Keycloak admin functions for user management.
-- Added tests for user and stack endpoints, including authorization checks.
-- Set up health check endpoints for server status.
-- Configured test environment with necessary mocks and utilities.</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#bf5a713</div>
-                                        <div class="message">feat: Implement user password reset functionality in API service</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#54fea9a</div>
-                                        <div class="message">feat: Add Kubernetes manifests for backend deployment, HTTP route, and secrets management</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#1f9b51a</div>
-                                        <div class="message">feat: Improve OIDC token handling and error management, including enhanced JWT decoding, session handling, and debug information capture</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#0010f85</div>
-                                        <div class="message">feat: Enhance OIDC token exchange handling to prevent duplicate exchanges and improve error management</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#f60199c</div>
-                                        <div class="message">feat: Add development scripts for backend setup and Keycloak secret management</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#2e43f48</div>
-                                        <div class="message">feat: Implement Keycloak integration with token management and user API endpoints</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#bc6b817</div>
-                                        <div class="message">Remove outdated test files and configurations for the SPIE Backend API, including audit, health, model, setup, stacks, users tests, and the values.yaml configuration. This cleanup is aimed at streamlining the codebase and removing unnecessary components.</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#788c9a2</div>
-                                        <div class="message">feat: Update Keycloak setup scripts to enhance configuration options and streamline installation process</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#cf53555</div>
-                                        <div class="message">feat: Implement InfraUsers management with API integration and user creation form</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#7c8bae6</div>
-                                        <div class="message">feat: Add InfraUsers page for user management and integrate navigation in Sidebar and Dashboard</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#5167c35</div>
-                                        <div class="message">feat: Enhance loading screen handling and add timeout to API requests</div>
-                                    </div>
-                                </div>
-                                <div class="timestamp">13 Aug 2025, 15:37:52</div>
-                            </section>
-                        </div>
                     </section>
                 </div>
             </section>
@@ -2003,7 +1961,7 @@ feat: Implement resizable columns in InfraUsers table for better user experience
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 22 Aug 2025, 03:27:19 (timezone Europe/Paris) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 22 Aug 2025, 05:07:53 (timezone Europe/Paris) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
