@@ -6,11 +6,11 @@
 
 <!-- <p align="left"> <img src="https://komarev.com/ghpvc/?username=plouf-0&label=Profile%20views&color=0e75b6&style=flat" alt="plouf-0" /> </p> -->
 
-- 🔭 I’m currently working on **[Domo-Garden](https://github.com/Plouf-0/Domo-Garden),  projet to add domotique in my garden**
+<!-- - 🔭 I’m currently working on **[Domo-Garden](https://github.com/Plouf-0/Domo-Garden),  projet to add domotique in my garden** -->
 
 - 🌱 I’m currently learning more about **docker**
 
-- 👯 I’m looking for a **6 months internship**
+- 👯 I’m looking for a **nice life to live**
 
 - 📄 Know about my experiences [https://giaufer.fr/](https://giaufer.fr/)
 
