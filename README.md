@@ -10,7 +10,7 @@
 
 - 🌱 I’m currently learning more about **docker**
 
-- 👯 I’m looking for a **nice life to live**
+- 👯 I’m looking for a **job in embeded systems**
 
 - 📄 Know about my experiences [https://giaufer.fr/](https://giaufer.fr/)
 
