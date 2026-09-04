@@ -2,7 +2,6 @@
 <h1 align="center">Hi 👋, I'm Plouf</h1>
 <h3 align="center">A passionate Backend/Hardware Engineer from France</h3>
 
-![badge](https://wakapi.giaufer.fr/api/badge/Plouf/Plouf/interval:10_days?label=last_10d)
 
 <!-- <p align="left"> <img src="https://komarev.com/ghpvc/?username=plouf-0&label=Profile%20views&color=0e75b6&style=flat" alt="plouf-0" /> </p> -->
 
@@ -63,6 +62,6 @@
 
 ![stats](https://github-readme-stats.vercel.app/api/wakatime?username=Plouf&api_domain=wakapi.giaufer.fr&bg_color=1A202C&title_color=2F855A&icon_color=2F855A&text_color=ffffff&custom_title=Plouf's%20Year%20Stats&layout=default&langs_count=20)
 
-<!--[![Les Stats GitHub de Anurag](https://github-readme-stats.vercel.app/api?username=kammerjager&count_private=true&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
+<!-- ![badge](https://wakapi.giaufer.fr/api/badge/Plouf/Plouf/interval:10_days?label=last_10d)
 
-![Metrics](https://github.com/kammerjager/kammerjager/blob/main/github-metrics.svg)
+<!--[![Les Stats GitHub de Anurag](https://github-readme-stats.vercel.app/api?username=kammerjager&count_private=true&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
