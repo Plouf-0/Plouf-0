@@ -1,53 +1,61 @@
 name: Metrics
 on:
-  # Schedule updates (each hour)
   schedule: [{cron: "0 * * * *"}]
-  # Lines below let you run workflow manually and on each commit (optional)
-  
   workflow_dispatch:
   push: {branches: ["master", "main"]}
+
 jobs:
-  github-metrics:
+  # Isometric commit calendar, rendu seul
+  isocalendar:
     runs-on: ubuntu-latest
     steps:
-      # See action.yml for all options
       - uses: lowlighter/metrics@latest
         with:
+          filename: metrics.plugin.isocalendar.svg
+          token: ${{ secrets.METRICS_TOKEN1 }}
+          config_timezone: Europe/Paris
+
+          plugin_base: no
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+  # Le reste : achievements, activité, habitudes, langages
+  metrics-card:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.card.svg
           debug: true
           repositories_affiliations: owner, collaborator, organization_member
-        
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year # Display full year instead of half year
-          
+          token: ${{ secrets.METRICS_TOKEN1 }}
+          config_timezone: Europe/Paris
+
           plugin_habits: yes
-          plugin_habits_from: 200       # Use 200 events to compute habits
-          plugin_habits_days: 30        # Keep only events from last 14 days
-          plugin_habits_facts: yes      # Display facts section
-          plugin_habits_charts: yes     # Display charts section
-          plugin_habits_trim: no       # Trim unused hours on daily chart
-          config_timezone: Europe/Paris # Set timezone
-          
+          plugin_habits_from: 200
+          plugin_habits_days: 30
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          plugin_habits_trim: no
+
           plugin_achievements: yes
-          plugin_achievements_threshold: C      # Display achievements with rank B or higher
-          plugin_achievements_secrets: yes      # Display unlocked secrets achievements
-          plugin_achievements_display: detailed # Use detailed display
-          plugin_achievements_limit: 0          # Display all unlocked achievements (no limit)
-          plugin_achievements_ignored: ""       # Hide "" achievement
-          plugin_achievements_only: ""          # Display only "" achievement (don't use with "ignored" option)
-          
+          plugin_achievements_threshold: C
+          plugin_achievements_secrets: yes
+          plugin_achievements_display: detailed
+          plugin_achievements_limit: 0
+          plugin_achievements_ignored: ""
+          plugin_achievements_only: ""
+
           plugin_activity: yes
-          plugin_activity_limit: 5           # Limit to 5 events
-          plugin_activity_load: 100          # Load up to 100 recent events from API (should be higher than "limit")
-          plugin_activity_days: 14           # Keep only events from last 14 days (set to 0 for no limit)
-          plugin_activity_filter: all        # Show all events (use table above to filter events types)
-          plugin_activity_visibility: all    # Only display all events
-          plugin_activity_timestamps: yes    # Display events timestamps
-          
+          plugin_activity_limit: 5
+          plugin_activity_load: 100
+          plugin_activity_days: 14
+          plugin_activity_filter: all
+          plugin_activity_visibility: all
+          plugin_activity_timestamps: yes
+
           plugin_languages: yes
           plugin_languages_sections: most-used, recently-used
-          plugin_languages_details: bytes-size, percentage, lines       # Additionally display total bytes size and percentage
+          plugin_languages_details: bytes-size, percentage, lines
           plugin_languages_indepth: no
           plugin_languages_recent_days: 365
-          
-          # Your GitHub token
-          token: ${{ secrets.METRICS_TOKEN1 }}
