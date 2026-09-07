@@ -5,7 +5,6 @@ on:
   push: {branches: ["master", "main"]}
 
 jobs:
-  # Isometric commit calendar, rendu seul
   isocalendar:
     runs-on: ubuntu-latest
     steps:
@@ -19,7 +18,6 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-  # Le reste : achievements, activité, habitudes, langages
   metrics-card:
     runs-on: ubuntu-latest
     steps:
@@ -55,6 +53,22 @@ jobs:
           plugin_activity_timestamps: yes
 
           plugin_languages: yes
+
+  languages:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.languages.svg
+          token: ${{ secrets.METRICS_TOKEN1 }}
+          config_timezone: Europe/Paris
+
+          base: no
+          plugin_languages: yes
+          plugin_languages_sections: most-used, recently-used
+          plugin_languages_details: bytes-size, percentage, lines
+          plugin_languages_indepth: no
+          plugin_languages_recent_days: 365
           plugin_languages_sections: most-used, recently-used
           plugin_languages_details: bytes-size, percentage, lines
           plugin_languages_indepth: no
