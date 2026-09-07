@@ -15,7 +15,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN1 }}
           config_timezone: Europe/Paris
 
-          plugin_base: no
+          base: no
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
